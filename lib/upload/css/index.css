@@ -1,0 +1,12 @@
+#upload-font{
+    font-size: 35px;
+    
+}
+#upload{
+    background-color: #efefef;
+    border: dashed #b4b4b4 1px;
+    cursor: pointer;
+    background-position: center;
+    background-size:100% 100% ;
+    background-repeat: none; 
+}

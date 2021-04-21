@@ -1,0 +1,96 @@
+#lyl-ui-nickname-label::before{
+    line-height: 2;
+    content: "*";
+    color: aquamarine;
+}
+#lyl-ui-nickname-label{
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+}
+#input-nickname{
+    width: 350px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    transition: all 0.5s;
+}
+.lyl-nickname-div{
+    width: 500px;
+    height: 70px;
+}
+#lyl-password-label{
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+}
+#lyl-password-label::before{
+    line-height: 2;
+    content: "*";
+    color: aquamarine;
+}
+#password-input{
+    width: 300px;
+    height: 32px;
+    outline: none;
+    border: none;
+}
+#pas-div{
+    width: 350px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    line-height: 35px;
+}
+
+#warn-username{
+    width: 450px;
+    height: 25px;
+    margin-top: 6px;
+    text-align: center;
+    color: red;
+    transition: all 0.5s;
+
+}
+#warn-password{
+    width: 450px;
+    height: 25px;
+    margin-top: 6px;
+    text-align: center;
+    color: red;
+    transition: all 0.5s;
+}
+.eye-svg{
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+}
+#form-sumbit{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #00ffff;
+    background-color: #00ffff;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+
+}
+.ui-form-sumbit{
+    width: 450px;
+    height: 35px;
+}
+
+#form-ui{
+    moz-user-select: -moz-none; 
+    -moz-user-select: none; 
+    -o-user-select:none; 
+    -khtml-user-select:none; 
+    -webkit-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+}
